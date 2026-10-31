@@ -68,3 +68,60 @@ body {
         text-align: center;
     }
 }
+
+.vault-section {
+    padding: 40px;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.input-group {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.input-group input {
+    flex: 1;
+    min-width: 150px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #475569;
+    background: #1e293b;
+    color: white;
+}
+
+.input-group button,
+.record-card button {
+    padding: 12px 20px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.record-card {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 15px;
+    overflow-wrap: anywhere;
+}
+
+.record-card button {
+    background: #dc2626;
+}
+
+@media (max-width: 600px) {
+    .vault-section {
+        padding: 20px;
+    }
+
+    .input-group {
+        flex-direction: column;
+    }
+}
+
